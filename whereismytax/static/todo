@@ -1,0 +1,17 @@
+1. Remove Defaults
+
+2. Navigation with “Submit” and flag if user has left any selectors with no value
+
+
+4. Add a “view responses” option in Chart so that the user can see in text format what their responses were
+
+
+4a. grey out (or make invisible) the Chart link until they have filled in everything? or does it make sense to show partial results (I think probably not)
+
+
+4b. OR: the Chart button is a Save button until they're finished, so we could write to the database if they get interrupted?
+
+
+Format either left or right the description text
+Increase font size on chart lables
+

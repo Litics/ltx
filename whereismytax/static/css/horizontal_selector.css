@@ -1,0 +1,145 @@
+ :root  {
+  --background-size-holes: 85%;
+}
+
+#selectorContainer{
+	background: #EDEDED;
+	padding: 30px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headerTop{
+    margin-top: 16px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 70%;
+    margin: 2em auto 3em auto;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #d5d1d1;
+    margin: 0em auto 1px auto;
+}
+
+button {
+    min-width: 20em;
+}
+
+tbody {
+    min-height: 12em;
+}
+
+#buttonContainer {
+    margin-top: 30px;
+    right: 0px;
+    width: 300px;
+}
+
+.colorBlue {
+	color: rgba(66,139,202,1.00);
+}
+
+#logoAccow{
+	background: url("http://www.accow.nl/website/wp-content/themes/twentyfifteen/img/Logo_Accow_homepage.fw_.png") no-repeat;
+	filter:alpha(opacity=30);
+	background-size: 124px;
+	width: 260px;
+	height: 200px;
+}
+
+#headerTopTitle{
+  font-family: "chaparral-pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.9em;
+}
+
+#headerTopTitle p {
+	margin: 0 0 -5px;
+}
+
+.maxWidthSmall {
+	max-width: 400px;
+}
+
+.maxWidthMedium {
+	max-width: 900px;
+}
+
+.maxWidthLarge {
+	max-width: 2560px;
+}
+
+.fixedWidth{
+	width: 65px;
+	max-width: 2em;
+	min-width: 65px;
+	height: 65px;
+	max-height: 65px;
+	min-height: 65px;
+}
+
+.first-hole{
+	background: url("../img/slider_1_off_ic.png");
+/*	background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.between-hole{
+	background: url("../img/slider_2_off_ic.png");
+/*	background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.last-hole{
+	background: url("../img/slider_5_off_ic.png");
+	/*background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.first-hole.selected-hole{
+	background: url("../img/slider_1_on_ic.png");
+/*	background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.between-hole.selected-hole{
+	background: url("../img/slider_2_on_ic.png");
+/*	background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.last-hole.selected-hole{
+	background: url("../img/slider_5_on_ic.png");
+/*	background-size: var(--background-size-holes); */
+    background-repeat: no-repeat;
+}
+
+.hole-spacer{
+	background: url("../img/slider_repeat_ic.png");
+   /* background-size: 224px 86%;
+	background-repeat: repeat-x; */
+	width: 200px;
+}
+
+.between-holes{
+	background: url("../img/slider_2_off_ic.png");
+}
+
+#selectorOptions > td{
+	height: 65px;
+}
+
+/*
+.hole-spacer {
+background-size: 20% 85% !important;}
+.hole {
+background-size: 85% !important;} */

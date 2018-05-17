@@ -1,0 +1,241 @@
+
+body {
+	margin: 0 auto;
+	font-family: futura, Arial, Helvetica, sans-serif;
+	text-align: center;
+	    padding-top: 65px;
+	background-color: #fcfcfc;
+}
+
+.contents {
+	position:relative;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 58em;
+    padding: 0 0 12em 0;
+    margin-top: 14em;
+}
+
+.footer {
+	color: rgb(187, 187, 187);
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-color: #333;
+	border-top: solid grey 0.5px;
+	width: 100%;
+	left: 0;
+    z-index: 5;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: #e2d4d4;
+    height: 14em;
+    border-bottom: solid grey 0.5px;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    letter-spacing: 0px;
+    float:left;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 5;
+}
+
+
+.title{
+    text-transform: uppercase;
+    clear: left;
+    height: 10em;
+    width: 100%;
+    padding: 3em 4em 3em;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+/* FORM */
+select {
+	display: none
+}
+
+#chart {
+	max-width: 60em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	font-weight: 100;
+	margin-top: 2em;
+	font-size: 20px;
+    display: inline-block;
+}
+
+.form {
+	max-width: 35em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	font-weight: 100;
+	margin-top: 2em;
+	font-size: 20px;
+}
+
+.form  h3 {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #060404;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form h6 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter !important;
+    color: #171616;
+    min-width: 8.5em;
+    position: relative;
+    right: 2em;
+}
+
+/* NAVBAR */
+nav ul {
+	list-style-type: none;
+	display: block !important;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: inherit;
+	padding: 0.5em !important;
+}
+
+nav h4 {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+nav li {
+	display: inline-block !important;
+    border-right: 1px solid #bbb;
+    text-transform: capitalize;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li.active > a {
+    color: #5e5e5e;
+    border-bottom: 2px solid #4a4a4a;
+    background-color: #FFFFFFE6;
+}
+
+nav li a:focus, a:hover {
+	background-color: #111;
+	outline: thin !important;
+	outline: none !importantoutline-offset: -2px;
+	text-decoration: bold !important;
+	color: #FFFFFFE6 !important;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+nav li:nth-last-child(2) {
+	border-right: none;
+}
+
+nav li:last-child {
+	border-right: none;
+	min-width:5em;
+	color: #5e5e5e;
+    float: right;
+    width: 9em;
+}
+
+nav li:last-child a {
+    border-radius: 10px;
+}
+
+/* LEGEND */
+
+.chart-wrapper {
+    display: inline-block;
+}
+
+legend {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #373232;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+
+padding-left: 1em;
+
+padding-right: 1em;
+}
+
+.legend {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    padding: 4em 0;
+    text-align: left;
+}
+
+.legend ul {
+    padding-left: 0;
+}
+
+
+.legend fieldset {
+    padding: 0.5em 1em 0em 1em;
+    border: 1px solid grey;
+}
+
+.legend ul li {
+    margin: 0 auto;
+    width: 12em;
+    list-style: none;
+    height: 3em;
+    display:table-row
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #2e2d2d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.legend ul li span {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    margin-left: 2px;
+    border: 1px solid #999;
+}
+
+.legend ul li span.target {
+    background: #7b904b99;
+}
+
+.legend ul li span.monitor {
+    background: #fff8bc80;
+}
+
+.legend ul li span.danger {
+    background: #881b1bC4;
+}
